@@ -1,5 +1,5 @@
 {
-    "name": "LuciferMoringstar-Robot",
+    "name": "AJUSER_BOT",
     "description": "When you going to send File on Telegram Channel this bot will save that in database, So you can get file in Bot PM",
     "stack": "container",
     "keywords": [
@@ -10,31 +10,31 @@
       "pyrogram",
       "bot"
     ],
-    "website": "https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot",
-    "repository": "https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot",
+    "website": "https://github.com/Aju001/AJUSER_BOT",
+    "repository": "https://github.com/Aju001/AJUSER_BOT",
     "env": {
         "API_HASH": {
-            "description": "Get this value from :- https://youtu.be/5eEsvLAKVc0",
+            "description": "Get this value from :- https://my.telegram.org",
             "required": true
         },
         "API_ID": {
-            "description": "Get this value from :- https://youtu.be/5eEsvLAKVc0",
+            "description": "Get this value from :- https://my.telegram.org",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Get this value from :- https://youtu.be/cB4UduCcNWs",
+            "description": "Get this value from :@BotFather",
             "required": true
         },
         "PICS": {
-            "description": "(random pics support | separate multiple pictures by space) Get this value from :- https://telegram.dog/MT_TelegraPH_Bot",
+            "description": "(random pics support | separate multiple pictures by space) Get this value from :-https://youtube.com/channel/UCk4uZXPnYwPSo2YlQECp1RA",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "(database : store name) Get this value from :- https://www.mongodb.com, For more help watch this video :- https://youtu.be/mD9veNL7KoE",
+            "description": "(database : store name) Get this value from :- https://www.mongodb.com, For more help watch this video :- https://youtube.com/channel/UCk4uZXPnYwPSo2YlQECp1RA",
             "required": true
         },
         "DATABASE_URI": {
-            "description": "(database : store) Get this value from :- https://www.mongodb.com, For more help watch this video :- https://youtu.be/mD9veNL7KoE",
+            "description": "(database : store) Get this value from :- https://www.mongodb.com, For more help watch this video :- https://youtube.com/channel/UCk4uZXPnYwPSo2YlQECp1RA",
             "required": true
         },
         "ADMINS": {
