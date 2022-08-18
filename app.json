@@ -103,7 +103,7 @@
             "required": false
         },
         "GET_FILECHANNEL": {
-            "description": "get files channel id @MT_ID_Bot",
+            "description": "get files channel id @aju_modz",
             "value": "",
             "required": true
         },
