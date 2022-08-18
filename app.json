@@ -74,12 +74,12 @@
         },
         "CREATOR_NAME": {
             "description": "Creator Name eg Muhammed Rk",
-            "value": "Muhammed",
+            "value": "Aju",
             "required": false
         },
         "CREATOR_USERNAME": {
             "description": "Creator Username Without @",
-            "value": "Pr0fess0r_99",
+            "value": "Aju001",
             "required": false
         },
         "FILTER_BUTTONS": {
