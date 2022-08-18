@@ -39,7 +39,7 @@ async def leave_bot(bot, update):
         chat = chat
     try:
         aju001 = [[ InlineKeyboardButton('𝙶𝙴𝚃 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url=f'https://t.me/{CREATOR_USERNAME}') ]]
-        aju001 = InlineKeyboardMarkup(pr0fess0r_99)
+        aju001 = InlineKeyboardMarkup(Aju001)
         await bot.send_message(chat_id=chat, text="𝙷𝙴𝙻𝙻𝙾 𝙵𝚁𝙸𝙴𝙽𝙳𝚂,\n𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝙷𝙰𝚂 𝚃𝙾𝙻𝙳 𝙼𝙴 𝚃𝙾 𝙻𝙴𝙰𝚅𝙴 𝙵𝚁𝙾𝙼 𝙶𝚁𝙾𝚄𝙿. 𝚂𝙾 𝙸 𝙶𝙾 😛. 𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝙽𝙰 𝙰𝙳𝙳 𝙼𝙴 𝙰𝙶𝙰𝙸𝙽 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙼𝙴", reply_markup=pr0fess0r_99)
         await bot.leave_chat(chat)
         await update.reply(f"𝙻𝙴𝙵𝚃 𝚃𝙷𝙴 𝙲𝙷𝙰𝚃 `{chat}`")
