@@ -10,7 +10,7 @@ logging.getLogger("imdbpy").setLevel(logging.ERROR)
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
 from database.autofilter_mdb import Media
-from LuciferMoringstar_Robot import API_ID, API_HASH, BOT_TOKEN, temp
+from Ajuser_Bot import API_ID, API_HASH, BOT_TOKEN, temp
 
 class Bot(Client):
 
