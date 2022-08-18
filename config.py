@@ -12,24 +12,24 @@ def is_enabled(value, default):
 
 
 # Creator
-CREATOR_NAME = os.environ.get("CREATOR_NAME", "𝙼𝚄𝙷𝙰𝙼𝙼𝙴𝙳")
-CREATOR_USERNAME = os.environ.get("CREATOR_USERNAME", "PR0FESS0_99")
+CREATOR_NAME = os.environ.get("CREATOR_NAME", "𝚊𝚓𝚞")
+CREATOR_USERNAME = os.environ.get("CREATOR_USERNAME", "Aju001")
 
 # Account
-API_HASH = os.environ.get("API_HASH", "5b1d0992294a67cb54512a4fafeb0c88")
-API_ID = os.environ.get("API_ID", "6170803")
+API_HASH = os.environ.get("API_HASH", "dc69fc9fab1de9e5fbc53216fc6a738d")
+API_ID = os.environ.get("API_ID", "17914625")
 # About Bot
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "1905228806:AAH2iahJcg5J6bqpcW11jB9KajwHbIjaslGTY")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5517187654:AAFj7BMHTMLWVoeRPpuTntHBuI0N0U_XusM")
 PICS = os.environ.get("PICS", "https://telegra.ph/file/034d53b5ed1d920ecab8b.jpg")
 # Database
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "LuciferMoringstar-Robot")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "AJUSER_BOT")
 DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://{Username}:{Passs}@cluster0.{clusterID}.mongodb.net/myFirstDatabase?retryWrites=true{iD}=majority")
 # Chats & Users
-ADMINS = os.environ.get("ADMINS", "2028425293 1637186875")
-SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Mo_Tech_Group")
-AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", "-1001685151224")
-CHANNELS = [int(ch) if search.search(ch) else ch for ch in os.environ.get("CHANNELS", "-1001784382279").split()]
-LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001590063851")
+ADMINS = os.environ.get("ADMINS", "1389198873")
+SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Aju_mods")
+AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", "-1001421928092")
+CHANNELS = [int(ch) if search.search(ch) else ch for ch in os.environ.get("CHANNELS", "-1001421928092").split()]
+LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001361180870")
 GET_FILECHANNEL = os.environ.get("GET_FILECHANNEL", "-1001570208190")
 FILTER_DEL_SECOND = int(os.environ.get("FILTER_DEL_SECOND", "600"))
 
