@@ -1,6 +1,6 @@
 # MIT License
 
-# Copyright (c) 2022 Muhammed
+# Copyright (c) 2022 Aju.
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -20,9 +20,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
-# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
 
 import re, base64, os, requests, json, logging
 from struct import pack
@@ -31,7 +28,7 @@ from pymongo.errors import DuplicateKeyError
 from umongo import Instance, Document, fields
 from motor.motor_asyncio import AsyncIOMotorClient
 from marshmallow.exceptions import ValidationError
-from LuciferMoringstar_Robot import DATABASE_URI, DATABASE_NAME, temp
+from Ajuser_Bot import DATABASE_URI, DATABASE_NAME, temp
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -151,8 +148,8 @@ async def get_filter_results(query):
 async def get_file_details(query):
     filter = {'file_id': query}
     cursor = Media.find(filter)
-    file_details_pr0fess0r99 = await cursor.to_list(length=1)
-    return file_details_pr0fess0r99
+    file_details_Aju001 = await cursor.to_list(length=1)
+    return file_details_Aju001
 
 def encode_file_id(s: bytes) -> str:
     r = b""
