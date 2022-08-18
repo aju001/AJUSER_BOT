@@ -16,12 +16,12 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            "Ajuser_Bot",
+            "AJUSER_BOT",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
             workers=50,
-            plugins={"root": "Ajuser_Bot"},
+            plugins={"root": "AJUSER_BOT"},
             sleep_threshold=5,
         )
 
